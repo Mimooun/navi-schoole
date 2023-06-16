@@ -1,0 +1,9 @@
+.layout__nav {
+    padding: 20px;
+  }
+  
+  .layout__nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
