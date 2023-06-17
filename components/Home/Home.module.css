@@ -1,123 +1,249 @@
 .container {
-    min-height: 100vh;
-    padding: 0 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .main {
-    padding: 5rem 0;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .footer {
-    width: 100%;
-    height: 100px;
-    border-top: 1px solid #eaeaea;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .footer img {
-    margin-left: 0.5rem;
-  }
-  
-  .footer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .title a {
-    color: #0070f3;
-    text-decoration: none;
-  }
-  
-  .title a:hover,
-  .title a:focus,
-  .title a:active {
-    text-decoration: underline;
-  }
-  
-  .title {
-    margin: 0;
-    line-height: 1.15;
-    font-size: 4rem;
-  }
-  
-  .title,
-  .description {
-    text-align: center;
-  }
-  
-  .description {
-    line-height: 1.5;
-    font-size: 1.5rem;
-  }
-  
-  .code {
-    background: #fafafa;
-    border-radius: 5px;
-    padding: 0.75rem;
-    font-size: 1.1rem;
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-      Bitstream Vera Sans Mono, Courier New, monospace;
-  }
-  
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  margin-left: 0.5rem;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+
+
+/**/
+.block {
+  background-color: #F9F9F9;
+  height: 100%;
+}
+
+.block .search_container {
+  padding: 20px 20px;
+}
+
+.block .search_container input {
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  width: 90%;
+  height: 25px;
+}
+
+.input_container {
+  position: relative;
+  width: 100%;
+}
+
+.search_container .input_container .input_text {
+  padding-left: 35px;
+
+}
+
+.search_icon {
+  color: #848A9C;
+  font-size: 18px;
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+
+.search_container .input_container_two {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  gap: 30px;
+  align-items: center;
+}
+
+.input_container_two {
+  position: relative;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.search_container .input_container_two .input_text {
+  padding-left: 35px;
+}
+
+.search_container .input_container_two .prox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 80%;
+  background-color: #ffffff;
+}
+
+.search_container .input_container_two .prox .search_icons {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  left: 13px;
+  font-size: 25px;
+  color: #848A9C;
+}
+
+/**/
+
+
+/*Menu*/
+.menu {
+  padding: 0px;
+}
+
+.menu .menu_cards .menu_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu .menu_cards .menu_card .titles {
+  padding: 20px;
+  color: #848A9C;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.52px;
+  letter-spacing: 0.28 px;
+}
+
+.menu .menu_cards .menu_card .ligne {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background: #DADADA;
+  height: 1px;
+  width: 65%;
+}
+
+.menu .wrp {
+  padding-left: 30px;
+  width: 92%;
+  height: 80px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  gap: 10px;
+  background-color: #ffffff;
+}
+.menu .wrp .wrp_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 40px;
+  width: 100%;
+  background-color: #DADADA;
+  overflow: hidden;
+
+}
+
+
+/* @media (max-width: 600px) {
   .grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin-top: 3rem;
+    width: 100%;
+    flex-direction: column;
   }
-  
-  .card {
-    margin: 1rem;
-    flex-basis: 45%;
-    padding: 1.5rem;
-    text-align: left;
-    color: inherit;
-    text-decoration: none;
-    border: 1px solid #eaeaea;
-    border-radius: 10px;
-    transition: color 0.15s ease, border-color 0.15s ease;
-  }
-  
-  .card:hover,
-  .card:focus,
-  .card:active {
-    color: #0070f3;
-    border-color: #0070f3;
-  }
-  
-  .card h3 {
-    margin: 0 0 1rem 0;
-    font-size: 1.5rem;
-  }
-  
-  .card p {
-    margin: 0;
-    font-size: 1.25rem;
-    line-height: 1.5;
-  }
-  
-  .logo {
-    height: 1em;
-  }
-  
-  @media (max-width: 600px) {
-    .grid {
-      width: 100%;
-      flex-direction: column;
-    }
-  }
-  
+} */
