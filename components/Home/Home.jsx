@@ -10,8 +10,8 @@ export default function Home() {
     <Layout>
       <section className={styles.block}>
         <div>
-          <div>Ecoles</div>
-          <div>Activities Parascolaires</div>
+          <div className={styles.ecole}>Ecoles</div>
+          <div className={styles.activiti}>Activities Parascolaires</div>
         </div>
         <div className={styles.search_container}>
           <div className={styles.top_container}>
@@ -71,13 +71,12 @@ export default function Home() {
               <div className={styles.wrp_content}>Transport <br /> Scolaire</div>
               <div className={styles.wrp_content}>Piscine</div>
             </div>
-
           </div>
 
 
           <div className={styles.menu_cards}>
             <div className={styles.menu_card}>
-              <div className={styles.titles}>Prix</div>
+              <div className={styles.titles}>Services</div>
               <div className={styles.ligne}></div>
             </div>
             <div className={styles.wrper_prix}>
@@ -93,14 +92,11 @@ export default function Home() {
               </div>
             </div>
           </div>
+          
           <div className={styles.button} >
             <Button variant="contained" className={styles.btn}>Contained</Button>
           </div>
         </div>
-
-
-
-
       </section>
     </Layout>
   );

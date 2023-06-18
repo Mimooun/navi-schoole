@@ -118,9 +118,24 @@
 /**/
 .block {
   background-color: #F9F9F9;
-  height: 95%;
+  height: 90%;
 }
-
+.block .ecole {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.28px;
+  color: #848A9C;
+}
+.block .activiti {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #848A9C;
+}
 .block .search_container {
   padding: 20px 20px;
 }
@@ -240,8 +255,17 @@
 
 }
 .menu  .wrper_prix {
-  display: flex;
-  justify-content: space-around;
+  padding-left: 30px;
+  width: 92%;
+  height: 80px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffffff;
+}
+.menu  .wrper_prix .select {
+  margin-top: 10px;
 }
 .menu  .wrper_prix .select select {
   padding: 13px;
@@ -291,9 +315,16 @@
   border-color: var(--checkbox-color-unchecked);
 }
 .menu .button {
+ margin-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.menu .button .btn {
+  width: 80%;
+  margin-top: 12px;
+  background-color: #3CA4A3;
+  border-radius: 50px;
 }
 
 /* @media (max-width: 600px) {
