@@ -118,7 +118,7 @@
 /**/
 .block {
   background-color: #F9F9F9;
-  height: 100%;
+  height: 95%;
 }
 
 .block .search_container {
@@ -239,7 +239,62 @@
   overflow: hidden;
 
 }
+.menu  .wrper_prix {
+  display: flex;
+  justify-content: space-around;
+}
+.menu  .wrper_prix .select select {
+  padding: 13px;
+  background-color: #f1f1f1;
+  border-radius: 40px;
+  border: none;
+}
+.menu  .wrper_prix .checkbox {
+  padding: 13px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
+
+
+.input[type="checkbox"] {
+  /* Couleur de la case à cocher lorsqu'elle est cochée */
+  --checkbox-color-checked: #FFA800;
+  
+  /* Couleur de la case à cocher lorsqu'elle n'est pas cochée */
+  --checkbox-color-unchecked: #ccc;
+  
+  /* Taille de la case à cocher */
+  transform: scale(1.5);
+  
+  /* Apparence personnalisée de la case à cocher */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid var(--checkbox-color-unchecked);
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Pour changer la couleur de fond de la case à cocher lorsqu'elle est cochée */
+.input[type="checkbox"]:checked {
+  background-color: var(--checkbox-color-checked);
+}
+
+/* Pour changer la couleur de bordure de la case à cocher lorsqu'elle n'est pas cochée */
+.input[type="checkbox"]:not(:checked) {
+  border-color: var(--checkbox-color-unchecked);
+}
+.menu .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* @media (max-width: 600px) {
   .grid {
