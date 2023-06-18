@@ -1,8 +1,11 @@
 .layout__nav {
+  background-color: #192639;
     padding: 20px;
   }
   
-  .layout__nav ul {
+  .layout__nav .liste {
+    font-size: 20px;
+    color: white;
     display: flex;
     justify-content: space-between;
   }

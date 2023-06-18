@@ -16,12 +16,12 @@ export default function Home() {
         <div className={styles.search_container}>
           <div className={styles.top_container}>
             <div className={styles.input_container}>
-              <input type="text" placeholder='Quelle école cherchez-vous?' className={styles.input_text} /* onClick={handleInputChange} */ />
+              <input type="text" placeholder='School Name' className={styles.input_text} /* onClick={handleInputChange} */ />
               <span className={styles.search_icon}><FaSearch /></span>
             </div>
             <div className={styles.input_container_two}>
               <div>
-                <input type="text" placeholder='Quelle école cherchez-vous?' className={styles.input_text} />
+                <input type="text" placeholder='Find location' className={styles.input_text} />
                 <span className={styles.search_icon}><GiPositionMarker /></span>
               </div>
               <div className={styles.prox}>
