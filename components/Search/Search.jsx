@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import styles from '../Search/search.module.css';
-import { FaSearch } from 'react-icons/fa';
-import {BsFillSendFill} from 'react-icons/bs'
-import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Distance from '../Distance/Distance'
+import Suggestions from '../Suggestions/Suggestions'
+import styles from './search.module.css'
+import { FaSearch } from 'react-icons/fa';
+import { GiPositionMarker } from 'react-icons/gi';
 function Search({ onCloseSearch }) {
   const [showComponent, setShowComponent] = useState(false);
 
@@ -18,28 +18,23 @@ function Search({ onCloseSearch }) {
 
   return (
     <section className={styles.search}>
-      <div className={styles.title}>
-        Où voulez-vous effectuer <br /> vos recherches
-      </div>
-      <div className={styles.container_search}>
-        <div className={styles.input_container}>
-          <TextField
-            id="standard-basic"
-            variant="standard"
-            placeholder="Saisir l’emplacement de l’école recherchée"
-            className={styles.TextField}
-            onClick={handleInputChange}
-          />
-          <span className={styles.search_icon}><FaSearch /></span>
-        </div>
+      <div>Ou voulez-vous effectuer vos recherches</div>
+      <div className={styles.search_container}>
+          <div className={styles.top_container}>
+            <div className={styles.input_container}>
+              <input type="text" placeholder='School Name' className={styles.input_text} onClick={handleInputChange} />
+              <span className={styles.search_icon}><FaSearch /></span>
+            </div>
+            <div className={styles.input_container_two}>
+              <div>
+                <input type="text" placeholder='A proximite' className={styles.input_text} onClick={handleProximityButtonClick} />
+                <span className={styles.search_icon}><GiPositionMarker /></span>
+              </div>
+            </div>
+          </div>
+          
 
-        <div className={styles.input_container_proxi}>
-          <Button variant="contained" className={styles.Button} onClick={handleProximityButtonClick}>
-            à proximité
-          </Button>
-          <span className={styles.search_icon_proxi}><BsFillSendFill /></span>
         </div>
-
         {showComponent && (
           <div>
             <Distance />
@@ -47,27 +42,18 @@ function Search({ onCloseSearch }) {
         )}
 
         {!showComponent && (
-          <div className={styles.ligne}>
-            <div className={styles.rue}>
-            <p>adrs 1</p>
-            <p>adrs 2</p>
-            <p>adrs 3</p>
-            <p>adrs 4</p>
+          <div>
+            <Suggestions />
           </div>
-          </div>
-        )}
-
-        
-        
+        )}        
         <div className={styles.container_button}>
           <Button variant="contained" className={styles.close_button} onClick={onCloseSearch}>
             Close
           </Button>
         </div>
-      </div>
+      
     </section>
-  );
+  )
 }
 
 export default Search;
-``

@@ -1,11 +1,21 @@
+"use client";
+import React, { useState } from 'react';
 import Layout from '../Layout/Layout';
 import styles from './Home.module.css';
 import { FaSearch } from 'react-icons/fa';
 import { GiPositionMarker } from 'react-icons/gi';
 import { LuList } from 'react-icons/lu';
 import Button from '@mui/material/Button';
-
+import Search from '../Search/Search'
 export default function Home() {
+  const [showSearch, setShowSearch] = useState(false);
+
+  const handleInputChange = () => {
+    setShowSearch(true);
+  };
+   const handleCloseSearch = () => {
+    setShowSearch(false);
+  }; 
   return (
     <Layout>
       <section className={styles.block}>
@@ -16,7 +26,7 @@ export default function Home() {
         <div className={styles.search_container}>
           <div className={styles.top_container}>
             <div className={styles.input_container}>
-              <input type="text" placeholder='School Name' className={styles.input_text} /* onClick={handleInputChange} */ />
+              <input type="text" placeholder='School Name' className={styles.input_text}  onClick={handleInputChange}  />
               <span className={styles.search_icon}><FaSearch /></span>
             </div>
             <div className={styles.input_container_two}>
@@ -97,6 +107,15 @@ export default function Home() {
             <Button variant="contained" className={styles.btn}>Contained</Button>
           </div>
         </div>
+
+        
+      {showSearch && (
+        <div className={styles.search_container} >
+          <Search onCloseSearch={handleCloseSearch} />
+          {
+          }
+        </div>
+      )}
       </section>
     </Layout>
   );
