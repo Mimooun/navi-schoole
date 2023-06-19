@@ -1,4 +1,4 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -6,6 +6,14 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  color: unset;
+  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,8 +23,5 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-*/
-body {
- margin: 0px;
-}
+
  

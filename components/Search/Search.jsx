@@ -18,7 +18,7 @@ function Search({ onCloseSearch }) {
 
   return (
     <section className={styles.search}>
-      <div>Ou voulez-vous effectuer vos recherches</div>
+      <div className={styles.title}>Ou voulez-vous effectuer <br />vos recherches</div>
       <div className={styles.search_container}>
           <div className={styles.top_container}>
             <div className={styles.input_container}>

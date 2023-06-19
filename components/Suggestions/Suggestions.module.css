@@ -1,5 +1,5 @@
 .suggestions .wrapper_sug {
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 20px;
     display: flex;
     gap: 20px;
@@ -7,6 +7,7 @@
     background: #ffffff;
     box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.0305125);
     border-radius: 15px;
+    margin: 15px 15px;
 }
 
 .suggestions .sug {
@@ -30,6 +31,7 @@
 }
 
 .suggestions .container_sug {
+    padding: 5px 20px;
     margin-top: 40px;
     display: flex;
     flex-direction: row;
@@ -41,7 +43,7 @@
     margin-top: 10px;
     background: #DADADA;
     height: 2px;
-    width: 90%;
+    width: 100%;
 }
 
 .suggestions .container_button .close_button {

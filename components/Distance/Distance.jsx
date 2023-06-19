@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import styles from '../Distance/distance.module.css';
-
+import Button from '@mui/material/Button';
 function valuetext(value) {
     return `${value}°km`;
 }
@@ -28,19 +28,25 @@ export default function MinimumDistanceSlider() {
     return (
         <Box sx={{ width: 300 }}>
             <section className={styles.distance}>
-                <div className={styles.title}>
-                    distance
+                <div className={styles.container_dis}>
+                    <div className={styles.title}>Segestion</div>
+                    <div className={styles.lignes}></div>
                 </div>
-                <div className={styles.ligne}> </div>
-                <Slider
-                    className={styles.slider}
-                    value={value2}
-                    onChange={handleChange2}
-                    valueLabelDisplay="auto"
-                    getAriaValueText={valuetext}
-                    disableSwap
-                />
+                <div className={styles.slider}>
+                    <Slider
+                        className={styles.content_slider}
+                        value={value2}
+                        onChange={handleChange2}
+                        valueLabelDisplay="auto"
+                        getAriaValueText={valuetext}
+                        disableSwap
+                    />
+                </div>
+                <div className={styles.button}>
+                    <div><Button variant="contained" className={styles.btn}>Contained</Button></div>
+                </div>
             </section>
+
         </Box>
     );
 }
