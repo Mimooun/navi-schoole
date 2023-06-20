@@ -43,8 +43,9 @@ export default function MinimumDistanceSlider() {
                     />
                 </div>
                 <div className={styles.button}>
-                    <div><Button variant="contained" className={styles.btn}>Contained</Button></div>
+                    <Button variant="contained" className={styles.btn_valider}>Valider</Button>
                 </div>
+                
             </section>
 
         </Box>

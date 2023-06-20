@@ -1,43 +1,41 @@
-.distance {
-    width: 100%;
-}
+
 .distance .container_dis {
     padding: 5px 20px;
     margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    width: 127%;
+   display: flex;
+   gap: 15px;
 }
 .distance .container_dis .lignes {
     margin-bottom: 10px;
     margin-top: 10px;
     background: #DADADA;
-    height: 2px;
-    width: 120%;
+    height: 1px;
+    width: 100%;
 }
 .distance .slider {
     margin: 20px;
     display: flex;
     align-items: center;
-    width: 115%;
     height: 60px;
     justify-content: center;
-background: #FFFFFF;
-box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.0305125);
-border-radius: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.0305125);
+    border-radius: 15px;
 }
 .distance .content_slider {
     color: #FFA800;
 }
-.distance .button {
-    width: 105%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.distance .button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
 }
-.distance .btn{
-    width: 100%;
-    height: 30px;
-    background-color: red;
+.distance .button .btn_valider {
+    width: 90%;
+background-color: red;
+background: #3CA4A3;
+border-radius: 50px;
+height: 50px;
 }
