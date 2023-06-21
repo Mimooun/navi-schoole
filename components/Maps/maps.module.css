@@ -1,0 +1,111 @@
+.top{ 
+    overflow: hidden;
+}
+.top .top_seconde {
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 1
+}
+.top .top_container {
+  width: 100%;
+}
+
+.top .top_seconde input {
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    width: 90%;
+    height: 25px;
+}
+
+.input_container {
+    position: relative;
+    width: 100%;
+  }
+  
+   .top_seconde .input_container .input_text {
+    padding-left: 35px;  
+  }
+  
+  .search_icon {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    left: 10px;
+
+  }
+  .top .search_container {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .top .search_container input {
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .input_container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .search_container .input_container .input_text {
+    padding-left: 35px;
+  }
+  
+  .search_icon {
+    color: #848A9C;
+    font-size: 18px;
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    left: 10px;
+  }
+  
+  .search_container .input_container_two {
+    display: grid;
+      grid-template-columns: 1fr 50px;
+      gap: 20px;
+      align-items: center;
+  }
+  
+  .input_container_two {
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .search_container .input_container_two .input_text {
+    padding-left: 35px;
+  }
+  
+  .search_container .input_container_two .prox {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    background-color: #ffffff;
+  }
+  
+  .search_container .input_container_two .prox .search_icons {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    left: 13px;
+    font-size: 25px;
+    color: #848A9C;
+  }
+  

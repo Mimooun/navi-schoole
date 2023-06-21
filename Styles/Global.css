@@ -9,3 +9,9 @@
    .css-1v5z18m{
   width:100%;
 } 
+.gm-control-active{
+  display: none;
+}
+.gmnoprint{
+  display: none;
+}
