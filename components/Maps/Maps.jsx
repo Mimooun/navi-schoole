@@ -4,6 +4,7 @@ import styles from '../Maps/maps.module.css'
 import { FaSearch } from 'react-icons/fa';
 import { GiPositionMarker } from 'react-icons/gi';
 import { LuList } from 'react-icons/lu';
+import Info from '../Info/Info'
 const containerStyle = {
   width: '100%',
   height: '400px',
@@ -50,6 +51,9 @@ function Map() {
         />
       </LoadScript>
       <div>
+      </div>
+      <div>
+        <Info />
       </div>
     </div>
   );
