@@ -26,19 +26,24 @@ function Info() {
                                     <div className={styles.image_container}>
                                         <Image src={icons1} width={20} height={20} />
                                     </div>
-                                    
                                     <div className={styles.cycle}>Maternelle</div>
                                 </div>
                                 <div className={styles.icon}>
-                                    <Image src={icons1} width={30} height={30} />
+                                    <div className={styles.image_container}>
+                                        <Image src={icons1} width={20} height={20} />
+                                    </div>
                                     <div className={styles.cycle}>Primaire</div>
                                 </div>
                                 <div className={styles.icon}>
-                                    <Image src={icons1} width={30} height={30} />
+                                    <div className={styles.image_container}>
+                                        <Image src={icons1} width={20} height={20} />
+                                    </div>
                                     <div className={styles.cycle}>Collège</div>
                                 </div>
                                 <div className={styles.icon}>
-                                    <Image src={icons1} width={30} height={30} />
+                                    <div className={styles.image_container}>
+                                        <Image src={icons1} width={20} height={20} />
+                                    </div>
                                     <div className={styles.cycle}>lycée</div>
                                 </div>
                             </div>
