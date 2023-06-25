@@ -7,7 +7,8 @@ import { GiPositionMarker } from 'react-icons/gi';
 import { LuList } from 'react-icons/lu';
 import Button from '@mui/material/Button';
 import Search from '../Search/Search'
-
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 export default function Home() {
   const [showSearch, setShowSearch] = useState(false);
 

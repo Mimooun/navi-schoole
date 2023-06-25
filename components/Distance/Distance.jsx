@@ -1,4 +1,6 @@
 import * as React from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import styles from '../Distance/distance.module.css';
@@ -42,10 +44,13 @@ export default function MinimumDistanceSlider() {
                         disableSwap
                     />
                 </div>
-                <div className={styles.button}>
-                    <Button variant="contained" className={styles.btn_valider}>Valider</Button>
-                </div>
-                
+                <Link href="/maps">
+                    <div className={styles.button}>
+                        <Button variant="contained" className={styles.btn_valider}>Valider</Button>
+                    </div>
+                </Link>
+
+
             </section>
 
         </Box>
