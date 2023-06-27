@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../Layout/Layout';
 import Button from '@mui/material/Button';
-
 import Image from 'next/image';
 import styles from './Visite.module.css'
 import school from '../../public/assets/images/schoole.png'
@@ -24,25 +23,25 @@ function Visite() {
                         <Button variant="contained" className={styles.btn_valider}>Visite Virtuelle</Button>
                     </div>
                     <div className={styles.info_ecole}>
+                        {/* <div className={styles.ico}>
+                            <div className={styles.ico_wrp}>
+                                <Image src={ico2} className={styles.img}></Image>
+                            </div>
+                            <div className={styles.title}>Call</div>
+                        </div> */}
                         <div className={styles.ico}>
                             <div className={styles.ico_wrp}>
-                            <Image src={ico1} width={20} height={20}></Image>
+                                <Image src={ico1}  className={styles.img}></Image>
                             </div>
-                            <div  className={styles.title}>Call</div>
+                            <div className={styles.title}>Route</div>
                         </div>
                         <div className={styles.ico}>
                             <div className={styles.ico_wrp}>
-                            <Image src={ico1} width={20} height={20}></Image>
+                                <Image src={ico3} className={styles.img}></Image>
                             </div>
-                            <div  className={styles.title}>Route</div>
+                            <div className={styles.title}>Share</div>
                         </div>
-                        <div className={styles.ico}>
-                            <div className={styles.ico_wrp}>
-                            <Image src={ico1} width={20} height={20}></Image>
-                            </div>
-                            <div  className={styles.title}>Share</div>
-                        </div>
-                        
+
                     </div>
                 </div>
             </section>

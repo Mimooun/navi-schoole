@@ -48,22 +48,26 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
+}
+.visite .visite_container .info_ecole .ico .ico_wrp .img{
+    width: 30px;
+    height: 20px;
 }
 .visite .visite_container .info_ecole .ico .ico_wrp{
-    padding: 8px;
-    height: 35px;
-    width: 35px;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:#FFA800;
-    border-radius: 35px;
+    border-radius: 100px;
 }
 .visite .visite_container .info_ecole .ico {
-    padding: 20px;
+    padding: 15px;
     width: 100px;
-    height: 30px;
+    height: 60px;
     margin-bottom: 3px;
     background-color: #F1F1F1;
     display: flex;
@@ -73,5 +77,5 @@
 }
 .visite .visite_container .info_ecole  .title {
     color: #848A9C;
-    padding: 12px;
+    padding-left: 10px;
 }
