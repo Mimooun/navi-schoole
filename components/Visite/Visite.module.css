@@ -1,0 +1,77 @@
+.visite .img_ecole .schole{
+    width: 100%;
+    height: 250px;
+}
+.visite .visite_container {
+    box-shadow: 0px 10px 35px 0px #00000008;
+    background-color: #FAFAFA;
+    border-radius: 30px;
+}
+.visite .visite_container .lignes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visite .visite_container .ligne {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background: #000000;
+        height: 1px;
+        width: 40%; 
+}
+.visite .visite_container .nom_ecole {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    color: #5396E4;
+}
+.visite .visite_container .button {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.visite .visite_container .button .btn_valider {
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: #3CA4A3;
+    width: 90%;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.visite .visite_container .info_ecole{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+.visite .visite_container .info_ecole .ico .ico_wrp{
+    padding: 8px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFA800;
+    border-radius: 35px;
+}
+.visite .visite_container .info_ecole .ico {
+    padding: 20px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 3px;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.visite .visite_container .info_ecole  .title {
+    color: #848A9C;
+    padding: 12px;
+}

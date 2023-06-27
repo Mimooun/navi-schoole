@@ -3,6 +3,7 @@ import Layout from '../Layout/Layout';
 import styles from '../Info/Info.module.css'
 import Image from 'next/image';
 import Button from '@mui/material/Button';
+import Link from 'next/link';
 
 import icons1 from '../../public/assets/icons/Vector(4).svg'
 import icons2 from '../../public/assets/icons/Vector(5).svg'
@@ -48,14 +49,15 @@ function Info() {
                                 </div>
                             </div>
                             <div className={styles.button}>
-                                <Button variant="contained" className={styles.btn_valider}>Valider</Button>
+                                <Link href="/visite"> 
+                                    <Button variant="contained" className={styles.btn_valider}>Valider</Button>
+                                </Link>
                             </div>
                         </div>
                         <div className={styles.info_card_right}>
                             <Image src={school} className={styles.img} />
                         </div>
                     </div>
-
                 </div>
             </section>
         </Layout>
