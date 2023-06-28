@@ -1,3 +1,6 @@
+.visite {
+    width: 100%;
+}
 .visite .img_ecole .schole{
     width: 100%;
     height: 250px;
@@ -19,6 +22,17 @@
         height: 1px;
         width: 40%; 
 }
+.visite .visite_container .lignes_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visite .visite_container .ligne_two {
+        background: #dadada;
+        height: 1px;
+        width: 100%; 
+}
+
 .visite .visite_container .nom_ecole {
     text-align: center;
     font-size: 18px;
@@ -32,7 +46,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
 }
 .visite .visite_container .button .btn_valider {
     margin-top: 10px;
@@ -50,10 +63,7 @@
     align-items: center;
     gap: 15px;
 }
-.visite .visite_container .info_ecole .ico .ico_wrp .img{
-    width: 30px;
-    height: 20px;
-}
+
 .visite .visite_container .info_ecole .ico .ico_wrp{
     padding: 10px;
     height: 30px;
@@ -65,10 +75,8 @@
     border-radius: 100px;
 }
 .visite .visite_container .info_ecole .ico {
-    padding: 15px;
-    width: 100px;
+    width: 120px;
     height: 60px;
-    margin-bottom: 3px;
     background-color: #F1F1F1;
     display: flex;
     justify-content: center;
@@ -78,4 +86,10 @@
 .visite .visite_container .info_ecole  .title {
     color: #848A9C;
     padding-left: 10px;
+}
+/* tabs*/
+.visite .tab .tablist {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
