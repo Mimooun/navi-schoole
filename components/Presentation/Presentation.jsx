@@ -8,6 +8,7 @@ import icons4 from '../../public/assets/icons/Vector(4).svg'
 import icons5 from '../../public/assets/icons/Vector(5).svg'
 import icons6 from '../../public/assets/icons/Vector(6).svg'
 import icons7 from '../../public/assets/icons/Vector(6).svg'
+import Swiper from '../Swiper/Swiper'
 function Presentation() {
     return (
         <section className={styles.presentation}>
@@ -141,15 +142,17 @@ function Presentation() {
 
             {/* horaire */}
             <div className={styles.horaire}>
-            <div className={styles.hr}>
+                <div className={styles.hr}>
                     <div className={styles.titre}>Horaire</div>
                     <div className={styles.ligne}></div>
                 </div>
                 <div className={styles.horaire_content}>
-                    <div>Du linde au vendedei de:</div>
+                    <div>Du lunde au vendredi de :</div>
                     <div>08:00  - 17:00 </div>
                 </div>
-
+            </div>
+            <div>
+                <Swiper />
             </div>
         </section>
     )
