@@ -100,6 +100,57 @@ function Presentation() {
                     </div>
                 </div>
             </div>
+            <div className={styles.service}>
+                <div className={styles.serv}>
+                    <div className={styles.titre}>Service</div>
+                    <div className={styles.ligne}></div>
+                </div>
+                <div className={styles.service_content}>
+                    <div className={styles.wrp_content}>
+                        <div className={styles.sub_title}>Cantine / Garde Repas : </div>
+                        <div> Soutien Scolaire </div>
+                    </div>
+                    <div className={styles.wrp_content}>
+                        <div className={styles.sub_title}>Transport Scorlaires : </div>
+                        <div> Bibilotheque </div>
+                    </div>
+                    <div className={styles.wrp_content}>
+                        <div className={styles.sub_title}>Piscine : </div>
+                        <div>  Garderie </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* /* Pedagogie*/}
+            <div className={styles.pedagogie}>
+                <div className={styles.peda}>
+                    <div className={styles.titre}>Pedagogie</div>
+                    <div className={styles.ligne}></div>
+                </div>
+                <div className={styles.pedagogie_content}>
+                    <div className={styles.wrp_content}>
+                        <div className={styles.sub_title}>Cantine / Garde Repas : </div>
+                        <div> Soutien Scolaire </div>
+                    </div>
+                    <div className={styles.wrp_content}>
+                        <div className={styles.sub_title}>Transport Scorlaires : </div>
+                        <div> Bibilotheque </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* horaire */}
+            <div className={styles.horaire}>
+            <div className={styles.hr}>
+                    <div className={styles.titre}>Horaire</div>
+                    <div className={styles.ligne}></div>
+                </div>
+                <div className={styles.horaire_content}>
+                    <div>Du linde au vendedei de:</div>
+                    <div>08:00  - 17:00 </div>
+                </div>
+
+            </div>
         </section>
     )
 }

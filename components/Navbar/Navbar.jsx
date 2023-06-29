@@ -5,7 +5,7 @@ import Image from 'next/image';
 import homeLogo from '../../public/assets/icons/Vector.svg'
 import busLogo from '../../public/assets/icons/Vector(1).svg'
 import locationLogo from '../../public/assets/icons/Vector(2).svg'
-import profileLogo  from '../../public/assets/icons/Vector(3).svg'
+import profileLogo from '../../public/assets/icons/Vector(3).svg'
 
 
 const Navbar = () => {
@@ -53,6 +53,7 @@ const Navbar = () => {
             </div>
           </Link>
         </li>
+        
       </ul>
     </nav>
   );

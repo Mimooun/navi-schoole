@@ -140,3 +140,122 @@ color: #484848;
 .presentation .cycle  .icons .icon:nth-child(4) > .image_container{
     background-color: #3CA4A3;
 }
+/* service */
+.presentation .service {
+    margin-top: 20px;
+ }
+ .presentation .service .serv .titre {
+    color:  #848A9C;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.25px;
+    letter-spacing: 0.28px;
+    margin-top: 5px;
+ }
+ .presentation .service .serv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+ .presentation .service .serv  .ligne{
+    margin-top: 8px;
+    background: #848A9C;
+    height: 1px;
+    width: 100%; 
+}
+.presentation .service .service_content {
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 0px 10px 35px 0px #00000008;
+    border-radius: 25px;
+    color: #484848;
+}
+.presentation .service .service_content .wrp_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.presentation .service .service_content .wrp_content .sub_title {
+    font-weight: 700;
+}
+
+/* pedagogie*/
+.presentation .pedagogie{
+    margin-top: 20px;
+ }
+ .presentation .pedagogie .peda .titre {
+    color:  #848A9C;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.25px;
+    letter-spacing: 0.28px;
+    margin-top: 5px;
+ }
+ .presentation .pedagogie .peda{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+ .presentation .pedagogie .peda  .ligne{
+    margin-top: 8px;
+    background: #848A9C;
+    height: 1px;
+    width: 100%; 
+}
+.presentation .pedagogie  .pedagogie_content {
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 0px 10px 35px 0px #dd0f0f08;
+    border-radius: 25px;
+    color: #484848;
+}
+.presentation .pedagogie  .wrp_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.presentation .pedagogie .pedagogie_content .wrp_content .sub_title {
+    font-weight: 700;
+}
+
+/* horaire*/
+.presentation .horaire{
+    margin-top: 20px;
+ }
+ .presentation .horaire .hr .titre {
+    color:  #848A9C;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.25px;
+    letter-spacing: 0.28px;
+    margin-top: 5px;
+ }
+ .presentation .horaire .hr{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+ .presentation .horaire .hr  .ligne{
+    margin-top: 8px;
+    background: #848A9C;
+    height: 1px;
+    width: 100%; 
+}
+.presentation .horaire .horaire_content {
+    margin-top: 15px;
+    padding: 15px;
+    box-shadow: 0px 10px 35px 0px #dd0f0f08;
+    border-radius: 25px;
+    color: #484848;
+}
