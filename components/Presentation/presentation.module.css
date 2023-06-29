@@ -1,11 +1,18 @@
 .presentation .pre_container {
     margin-bottom: 15px;
     display: grid;
-    grid-template-columns: 0.5fr auto ;
-    gap: 30px;
+    grid-template-columns: 0fr auto ;
+    gap: 20px;
+    align-items:center ;
+}
+.presentation .pre {
+    padding: 10px;
+    box-shadow: 0px 10px 35px 0px #00000008;
+    border-radius: 25px;
 }
 .presentation .pre_container .pre_ico{
     width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,4 +29,114 @@
 font-size: 12px;
 font-weight: 400;
 color: #484848;
+}
+ /* Description*/
+ .presentation .description {
+    margin-top: 20px;
+ }
+ .presentation .description .desc .titre {
+    color:  #848A9C;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.25px;
+    letter-spacing: 0.28px;
+    margin-top: 5px;
+ }
+ .presentation .description .desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+ .presentation .description .desc  .ligne{
+    margin-top: 8px;
+    background: #848A9C;
+    height: 1px;
+    width: 100%; 
+}
+.presentation .description .desc_content {
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 0px 10px 35px 0px #00000008;
+    border-radius: 25px;
+    color: #484848;
+
+}
+
+
+/* cycle*/
+.presentation .cycle {
+    margin-top: 20px;
+ }
+ .presentation .cycle .cy .titre {
+    color:  #848A9C;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.25px;
+    letter-spacing: 0.28px;
+    margin-top: 5px;
+ }
+ .presentation .cycle .cy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+ .presentation .cycle .cy  .ligne{
+    margin-top: 8px;
+    background: #848A9C;
+    height: 1px;
+    width: 100%; 
+}
+.presentation .cycle .icons {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    border-radius: 5px;
+}
+.presentation .cycle .icons .icon{
+    width: 100%;
+    padding: 7px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+ .icons .image_container {
+    width: 35px;
+    height: 30px;
+    margin-bottom: 3px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.presentation .cycle .icons .cycle {
+    font-size: 13px;
+}
+.presentation .cycle .icons .icon:nth-child(1) {
+    background-color: #DDECF2;
+  }
+  .presentation .cycle .icons .icon:nth-child(1) > .image_container{
+    background-color: #5396E4;
+}
+.presentation .cycle .icons .icon:nth-child(2) {
+    background-color: #F8F0DD;
+}
+.presentation .cycle .icons .icon:nth-child(2) > .image_container{
+    background-color: #FFA800;
+}
+
+.presentation .cycle .icons .icon:nth-child(3) {
+    background-color: #F2E2E5;
+}
+.presentation .cycle  .icons .icon:nth-child(3) > .image_container{
+    background-color: #EC4154;
+}
+
+.presentation .cycle .icons .icon:nth-child(4) {
+    background-color: #DCF0F1;
+}
+.presentation .cycle  .icons .icon:nth-child(4) > .image_container{
+    background-color: #3CA4A3;
 }
