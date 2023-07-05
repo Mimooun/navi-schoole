@@ -70,7 +70,7 @@ function Avis() {
               <Image src={img} />
             </div>
             <div className={styles.name}>
-              <div className={styles.nom}>Ahmed Alaoui</div>
+              <div className={styles.nom}>Ahmed Alaou</div>
               <div className={styles.rating}>
                 <Rating
                   value={rating}
